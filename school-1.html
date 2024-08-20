@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="main-page.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школа номер 1</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #003366; 
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; 
+        }
+        button {
+            background-color: #004488; 
+            border: none;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block; 
+            font-size: 20px;
+            margin: 10px 0; 
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 2px 2px 0 0 #0f172a;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            box-shadow:6px 6px 0 0 #0f172a;
+            transform:translate(-2px, -2px);
+            background-color: #005599; 
+        }
+        div{
+            background-color: #004488; 
+            border: none;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block; 
+            font-size: 20px;
+            margin: 10px 0; 
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+    <body>
+        <h1>Школа номер 1</h1>
+        <button onclick="window.location.href = 'add-teacher.html';">Добавить учителя</button>
+        <div>Cписок учителей:<br><br>
+            Пётр Петров<br>Petrov@mail.ru<br>
+            Василий Петров<br>vasilyPetrov@mail.ru<br>
+            Иван Васильев<br>ivan@mail.ru<br>
+            Василий Иванов<br>vasily@mail.ru
+        </div>
+
+    </body>
+
+</html>
