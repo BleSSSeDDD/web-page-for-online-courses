@@ -2,55 +2,36 @@
 
 <html lang="ru">
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link href="main-page.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Выберите куратора:</title>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="main-style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Выберите куратора:</title>
+    </head>
 
-    <style type="text/css">
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #003366; 
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh; 
-        }
-        button {
-            background-color: #004488; 
-            border: none;
-            color: white;
-            padding: 15px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block; 
-            font-size: 20px;
-            margin: 10px 0; 
-            cursor: pointer;
-            border-radius: 5px;
-            box-shadow: 2px 2px 0 0 #0f172a;
-            transition: background-color 0.3s;
-        }
-        button:hover {
-            box-shadow:6px 6px 0 0 #0f172a;
-            transform:translate(-2px, -2px);
-            background-color: #005599; 
-        }
-    </style>
+    <body>
+        <button id="back" onclick="window.location.href='javascript:history.back()';"><img src="back.png">Назад</button>
+        
+        <h1>Выберите куратора:</h1>
+        <!--ЗДЭСЯ БУДЕТ ЖИ ЭС БРАТЬЯ -->
+        <table>
+            <tr><td><a href = 'petr.html';>Петров Пётр</a></td>
+            <td><a href = 'petr.html';>Иванов Иван</a></td></tr>
 
-</head>
+            <tr><td><a href = 'petr.html';>Петров Иван</a></td>
+            <td><a href = 'petr.html';>Иванов Пётр</a></td></tr>
 
-<body>
+            <tr><td><a href = 'petr.html';>Васильев Василий</a></td>
+            <td><a href = 'petr.html';>Магомедов Магомед</a></td></tr>
 
-    <h1>Выберите куратора:</h1>
-    <div><button onclick="window.location.href = 'petr.html';">Петров Пётр</button></div>
-    <div><button onclick="window.location.href = 'ivan.html';">Иванов Иван</button></div>
-    <div><button onclick="window.location.href = 'maga.html';">Магомедов Магомед</button></div>
-    <div><button onclick="window.location.href = 'anna.html';">Анна Иванова</button></div>
-    <div><button onclick="window.location.href = 'vasily.html';">Василиса Петрова</button></div>
-    <div><button onclick="window.location.href = 'maria.html';">Мария Сидорова</button></div>
+            <tr><td><a href = 'petr.html';>Васечкин Егор</a></td>
+            <td><a href = 'petr.html';>Егоров Владимир</a></td></tr>
 
-</body></html>
+            <tr><td><a href = 'petr.html';>Алешин Герман</a></td>
+            <td><a href = 'petr.html';>Ян Ян</a></td></tr>
+
+            <tr><td><a href = 'petr.html';>Петров Геннадий</a></td>
+            <td><a href = 'petr.html';>Сидоров Владимир</a></td></tr>
+        </table>
+    </body>
+</html>
