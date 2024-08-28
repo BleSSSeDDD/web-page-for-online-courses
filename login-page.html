@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="main-style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Вход</title> 
+    </head>
+
+    <body>
+        <button id="back" onclick="window.location.href='javascript:history.back()';"><img src="back.png">Назад</button>
+
+        <div>
+            <button onclick="window.location.href = 'courator-page.html';">Войти как <br> куратор(тестовое)</button>
+            <button onclick="window.location.href = 'teacher-page.html';">Войти как <br> учитель(тестовое)</button>
+            <button onclick="window.location.href = 'admin-page.html';">Войти как <br> администратор(тестовое)</button>
+        </div>
+        
+        <div class="login-container">
+
+            <h2>Вход</h2>
+
+            <form action="#" method="post">
+
+                <input type="text" placeholder="Логин" required>
+
+                <div class="password-container">
+
+                    <input type="password" id="password" placeholder="Пароль" required>
+
+                    <span class="toggle-password" 
+                        onmousedown="showPassword()" 
+                        onmouseup="hidePassword()" 
+                        onmouseleave="hidePassword()">
+
+                        <img src="png-glaz.png" width="25" height="auto">
+
+                    </span>
+
+                </div>
+
+                <button type: submit; style="width: 110%">Войти</button>
+
+            </form>
+
+        </div>
+
+        <script src="login-page.js"></script>
+
+    </body>
+    
+</html>
